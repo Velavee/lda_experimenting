@@ -11,7 +11,7 @@ from text_processing import *
 
 def main():
     text_data = []
-    with open("there-will-come-soft-rains.txt") as f: # Most examples seem to use .csv. Why?
+    with open("dataset.csv") as f: # Most examples seem to use .csv. Why?
         for line in f:
             if line != '\n':
                 line = re.sub(r'[^\w\s]', '', line)
