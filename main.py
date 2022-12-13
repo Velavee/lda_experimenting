@@ -11,14 +11,16 @@ from text_processing import *
 
 def main():
     text_data = []
-    with open("dataset.csv") as f:
+    with open("tests.csv") as f:
         for line in f:
             if line != '\n':
                 line = re.sub(r'[^\w\s]', '', line)
                 tokens = prepare_text_for_lda(line)
-                if random.random() > .99:
-                    print(tokens)
-                    text_data.append(tokens)
+                print(tokens)
+                text_data.append(tokens)
+                # if random.random() > .99:
+                #     print(tokens)
+                #     text_data.append(tokens)
 
         f.close()
 
@@ -36,9 +38,9 @@ def main():
         print(topic)
 
     # Visualization - wasn't working
-    import pyLDAvis.gensim_models
-    lda_display = pyLDAvis.gensim_models.prepare(ldamodel, corpus, dictionary, sort_topics=False)
-    pyLDAvis.display(lda_display)
+    # import pyLDAvis.gensim_models
+    # lda_display = pyLDAvis.gensim_models.prepare(ldamodel, corpus, dictionary, sort_topics=False)
+    # pyLDAvis.display(lda_display)
 
 if __name__ == '__main__':
     main()

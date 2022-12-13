@@ -1,0 +1,1054 @@
+IdP user logs in through SP client standard SAML
+User enters credentials in ws-fed client client calls usernamemixed to get Ws-Fed assertion
+Assign management API scopes to app
+Get an Access Token with all available scopes with CCE
+Can login user using Google social login and DEV keys
+Validate that login and signup have different custom templates
+Can login user using Google social login and DEV keys
+An IP address is blocked after exceeding rate limit and is unblocked after refill duration has elapsed
+Lock v11 (on custom domain) -       OIDC conformant client
+Device flow Requested permission is returned when added by rule with enforce_policies enabled with new login type
+Can login user using twitter social login with Dev keys
+Device flow Requested permission is returned when added by rule with enforce_policies enabled for new login type
+Can login user using twitter social login with Dev keys
+User logs in with code token and id_token with audience param for the classic login experince  @layer0-skip
+Upsert Users
+User logs in with code token and id_token with audience param for the custom login experince
+User logs in with code token and id_token with audience param for the new login experince
+User logs in with code and calls /userinfo with access_token with classic ul experience
+Auth code flow with refresh token after updating roles and permissions on classic experience @smoke-test
+User logs in with code and calls /userinfo with access_token with new ul experience
+Auth code flow with an organization in the query string and a rule redirecting to app and resuming with /continue on the new UL experience
+Refresh token returned on hybrid flow depending on allow_offline_access value with the classic universal login
+User logs in with code and calls /userinfo with access_token with classic ul experience
+Refresh token returned on hybrid flow depending on allow_offline_access value with the new universal login
+User logs in with code and calls /userinfo with access_token with new ul experience
+Implicit flow requesting idToken using auth0 DB connection with classic ul experience
+User logs in with code and calls /userinfo with access_token with classic ul experience
+Implicit flow requesting idToken using auth0 DB connection with new ul experience
+User logs in with code and calls /userinfo with access_token with new ul experience
+User creates a valid application specific password
+User logs in with id_token with classic universal login experience
+Deny login via Custom db Script
+Retrieve Tenant Entitlements from context
+User logs in with id_token with new universal login experience
+Use modules within a rule to update users app_metadata
+Calling blocked ip endpoint does not block the IP address
+Login is blocked on implicit flow after reaching threshold of failed logins for new login experince
+Add a Facebook social connection integration to tenant from public Marketplace and use it
+Get tenant logs by ID @smoke-test
+Consent prompt lists requested scopes for user approval for classic login type
+Bulk import users with custom password hash
+Create and use MFA enrollment ticket for email factor using second email address without recovery code
+Auth code flow verifying token with current rotated and revoked signing keys
+Get logs by user ID and additional params
+Create and use MFA enrollment ticket for otp factor with recovery code
+Get logs by user ID
+Create and use MFA enrollment ticket for otp factor without recovery code
+Get all tenant logs
+User enters credentials in a SAMLP client client calls /samlp endpoint to get a SAML assertion
+Create and use MFA enrollment ticket for phone factor with recovery code
+Get user events in tenant logs
+Create and use MFA enrollment ticket for phone factor without recovery code
+Using the implicit flow the user logs in via an ADFS Connection
+Consent prompt lists requested scopes for user approval with new login type
+Validate Email Reset Flow after user is blocked
+Validate Password Reset Email Flow unblocks a user
+add action integration to tenant from public Marketplace
+Auth code flow with PKCE silent mode and with web_message as response mode with classic login experience
+Auth code flow with internationalization
+Implicit token without params Windows AD adfs then single logout
+Auth code flow with PKCE silent mode and with web_message as response mode with new login experience
+Auth code flow with prompt customizations on signup login and consent prompts on ${universalLoginType} experience
+Consent prompt is skipped per API setting for first party client with the classic login experince
+Validates GET '/api/v2/connections' endpoint @smoke-test
+Auth code flow with users seconday identity with classic ul experience
+User logs in with code flow and state param on classic experience
+Implicit token without params Windows AD ldap with Password Reset
+Consent prompt is skipped per API setting for first party client with the new login experince
+User logs in successfully then is blocked and can no longer log in
+Import and export users
+add SSO integration to tenant from public Marketplace
+User logs in via implicit flow through a non OIDC conformant application with classic ul experience
+Validates GET '/api/v2/connections/{id}/status' endpoint
+User logs in via implicit flow through a non OIDC conformant application with new ul experience
+User declines device confirmation screen
+Implicit flow requesting token and audience param with classic ul experience
+Implicit flow requesting token and audience param with custom ul experience
+Can create and get organization invitations
+Implicit flow requesting token and audience param with new ul experience
+Articles landing shows sidebar's main menu
+User logs in using device authorization flow depending on allow_offline_access with new login experince
+Link a secondary user to a primary user and then unlink them
+Implicit flow with offline access granted per API config with classic ul experience
+Search for users
+Implicit flow with offline access granted per API config with custom ul experience
+Search for newly signed up using new universal signup flow user @smoke-test @quarantine
+Implicit flow with offline access granted per API config with new ul experience
+Ticket creation for password reset with new universal login and client_id
+User logs in from get-started page
+Implicit flow requesting token and idToken with form_post response with new ul experience
+Validate log entries related to actions
+Lock v11 (auth params: response_type audience scope state) -     OIDC non-conformant client
+Implicit flow with seamless OAuth SSO and SLO with classic ul experience
+Lock v11 - (auth params: response_type audience scope state) -     OIDC conformant client
+Action creation missing supported_triggers
+Implicit flow with seamless OAuth SSO and SLO with new ul experience
+Lock v11 (default auth params) -     OIDC conformant client
+Action creation successfully @smoke-test
+User session renewed with silent auth with classic ul experience
+Action creation duplicate
+User session renewed with silent auth with new ul experience
+User logs in with code and id_token with audience param on classic experience
+Action delete successfully
+User logs in with code flow and PKCE with classic ul experience
+User runs the forgot password flow with custom db on new experience
+Get action by id successfully
+User logs in with code flow and PKCE with new ul experience
+User logs in with code and id_token without params on classic experience
+List actions by name
+Auth code flow with offline_access disabled with classic ul experience
+List actions by triggerId
+Auth code flow with offline_access disabled with new ul experience
+User logs in with code and token with audience param on classic experience
+List actions paged successfully
+Auth code flow with offline access granted per APIs config with classic ul experience
+Delete All TTM Tenants on a stack using tenant helper method @ttmDel
+List actions successfully
+Auth code flow with offline access granted per APIs config with new ul experience
+Implicit flow requesting idToken using New Experience and ID First login with multiple DB connections succeeds using the oldest connection
+Test action successfully
+Auth code flow with downscoped refresh token exchange with classic ul experience
+Implicit flow requesting idToken using New Experience and ID First login with multiple DB connections (using the newest) fails
+Action name update successfully
+Auth code flow with downscoped refresh token exchange with new ul experience
+Implicit flow requesting idToken using New Experience and ID First login with multiple DB connections and a disabled default directory
+Get Action Execution successfully
+User logs in with code and audience then gets an refresh token that expires after 2 seconds with classic ul experience
+Implicit flow requesting idToken using New Experience and ID First login with multiple DB connections and default directory succeeds
+List all actions triggers successfully
+User logs in with code and audience then gets an refresh token that expires after 2 seconds with new ul experience
+Implicit flow requesting idToken using New Experience and regular login with multiple DB connections succeeds using the oldest connection  @layer0-skip
+Auth code flow with refresh token leak prevention with classic ul experience
+Implicit flow requesting idToken using New Experience and regular login with multiple DB connections (using the newest) fails
+List action versions successfully
+Auth code flow with refresh token leak prevention with new ul experience
+Implicit flow requesting idToken using New Experience and regular login with multiple DB connections and a disabled default directory
+Add permissions to a role
+User logs in with code and audience then gets refresh token with classic ul experience
+Implicit flow requesting idToken using New Experience and regular login with multiple DB connections and default directory
+Assign permissions to a user
+User logs in with code and audience then gets refresh token with new ul experience  @layer0-skip
+Implicit flow requesting idToken using New Experience and ID First signup with screen_hint and login_hint
+Remove permissions from a role
+User logs in with code and audience then gets refresh token with classic ul experience
+Can retrieve rotate and revoke signing keys
+Implicit flow requesting idToken using New Experience and ID First signup with screen_hint
+Assign roles to a user
+User logs in with code and audience then gets refresh token with new ul experience
+Implicit flow requesting idToken using New Experience and regular signup with screen_hint and login_hint
+Get users in a role
+User logs in with code and audience then gets rotating refresh token and the non rotating is revoked with classic ul experience
+IDs are created within a specified range
+Implicit flow requesting idToken using New Experience and regular signup with screen_hint
+List roles
+User logs in with code and audience then gets rotating refresh token and the non rotating is revoked with new ul experience
+Remove roles from a user
+User logs in with code and audience then gets rotating refresh token with classic ul experience
+add social connection integration to tenant from public Marketplace
+User logs in with code and audience then gets rotating refresh token with new ul experience
+testing GET endpoints
+User logs in with WS-Fed no extra params with classic ul experience
+User logs in with WS-Fed no extra params with new ul experience
+Organization branding on ${universalLoginType} experience
+Implicit flow with seamless OAuth SSO and SLO for custom db user with classic ul experience
+Callback URI uses {organization_name} template string on ${universalLoginType} experience
+Implicit flow with seamless OAuth SSO and SLO for custom db user with new ul experience
+Only enabled connections for the organization are displayed in login on ${universalLoginType} experience
+Custom db user logs in and exchanges refresh token with classic ul experience
+User logs in with token and id_token with audience on classic experience
+CRUD operations on users @smoke-test
+Custom db user logs in and exchanges refresh token with new ul experience
+User deletes a rule config
+Custom Db user migrated to auth0 on login with new ul experience
+User creates a rule config @smoke-test
+Custom Db user migrated to auth0 on login with classic ul experience
+User creates a disabled rule
+Implicit flow requesting idToken using on OIDC connection succeeds using the oldest connection
+User creates a duplicate named rule
+Implicit flow requesting idToken using on OIDC connection succeeds using the oldest connection
+User creates an empty rule
+User creates an enabled rule
+User logs in with token on classic experience
+User deletes a rule
+Implicit flow with front and back channel OIDC connections with or without issuer
+User updates a rule with a name belonging to a different rule
+Implicit flow with front and back channel OIDC connections with or without issuer
+User logs in via ro with scope and audience
+User updates a rule with an empty script
+User logs in with SAML with relay state param with classic ul experience
+User updates a rule
+User logs in with SAML with relay state param with new ul experience
+Silent auth fails without login session
+Azure cleanup script
+User logs in through IDP client standard SAML IDP initiated with classic ul experience
+call reset tenant for preconfigured tenant cleanup @layer0-skip
+User logs in through IDP client standard SAML IDP initiated with new ul experience
+Cleanup script
+Implicit flow with seamless WsFed SSO and SLO using classic ul experience
+Implicit flow with seamless WsFed SSO and SLO using new ul experience
+IdP user logs in through SP client using ADFS Connection to IDP WS-Fed Client and the classic ul experience
+IdP user logs in through SP client using ADFS Connection to IDP WS-Fed Client and the new ul experience
+PostLogin_V2 auth flow with action redirect and using the classic ul experience
+PostLogin_V2 auth flow with action redirect and using the new ul experience
+PostLogin auth flow with action redirect using the classic ul experience
+PostLogin auth flow with action redirect using the new ul experience
+Deny user access with UnauthorizedError and the classic ul experience
+Deny user access with UnauthorizedError and the new ul experience
+Login is blocked on ROPG flow after reaching threshold of failed logins
+Update user and app metadata with classic ul experience
+Requested API scopes are returned when enforce_policies is disabled
+Update user and app metadata with custom ul experience
+ROPG with enforce_policies enabled returns user direct permissions in access token
+Update user and app metadata with new ul experience
+User logs in with WS-Fed no extra params with custom claims added via a rule using classic ul experience
+ROPG with offline access granted per API configs
+User logs in with WS-Fed no extra params with custom claims added via a rule using new ul experience
+ROPG Flow requested permission is returned when added by rule with enforce_policies enable
+IdP user logs in through SP client using ADFS Connection to IDP WS-Fed Client with custom claims added via a rule at the IDP and with classic ul experience
+Use username and password to successfully request a token
+IdP user logs in through SP client using ADFS Connection to IDP WS-Fed Client with custom claims added via a rule at the IDP and with new ul experience
+Get an Access Token with all available scopes
+Logging in from multiple different countries results in aMFA response
+Trigger MFA from within an action with custom ul experience @smoke-test
+Custom Db user changes their email on new experience
+Logging in from untrusted IP results in aMFA response
+Trigger MFA from within an action with new ul experience
+Existing custom db user logs in and verifies their email on new experience
+Login is blocked after reaching threshold of failed logins
+PostLogin_V2 Trigger MFA from within an action with classic ul experience
+Custom db user signs up and verifies their email on new experience
+Can login user using Google social login
+PostLogin_V2 Trigger MFA from within an action with custom ul experience
+PostLogin_V2 Trigger MFA from within an action with new ul experience
+Custom Db user logs in with ROPG
+Auth code flow with tenant setting triggering MFA with classic ul experience
+Auth code flow with tenant setting triggering MFA with new ul experience
+Custom Db user changes their password on new experience
+Auth code flow with Send phone message hook MFA with classic ul experience
+Auth code flow with Send phone message hook MFA with new ul experience
+User logs in with custom db and user profile is returned on new experience
+Rule excusing refresh tokens from MFA requirement with classic ul experience
+Custom DB user information is synced at login on new experience
+Repeated similar logins yield NewDevice result with 'match' and {device: 'known' useragent: 'known'}
+Rule excusing refresh tokens from MFA requirement with new ul experience
+Auth code flow with PKCE silent auth and MFA with classic ul experience
+Auth code flow with PKCE silent auth and MFA with new ul experience
+Enroll and login with SMS MFA with classic ul experience
+Enroll and login with SMS MFA with new ul experience
+ROPG with enforce_policies enabled returns user direct permissions in new access token
+Trigger MFA from within a rule on classic ul experience
+Trigger MFA from within a rule on custom ul experience
+Trigger MFA from within a rule with new ul experience
+User logs in with SAML with connection param on classic experience
+Exchange assertion for Access Token with available scopes
+Rule for step up authentication on API scopes with classic ul experience
+Rotate credential and exchange assertion for Access Token with available scopes
+Rule for step up authentication on API scopes with new ul experience
+Get user management tenant logs
+SAML Flow SP initiated login without organization organization_usage set to require organization_require_behavior set to pre_login_prompt
+Rule for step up authentication with acr_values with classic ul experience
+Validate that the page title is set and the user is able to log in
+SAML Flow IdP user logs into and out of SP and IdP clients with SSO and SLO
+SAML Flow SP initiated login with organizations in qs organization_usage set to require with RBAC
+Rule for step up authentication with acr_values with new ul experience
+SAML Flow SP initiated login with SAML mappings defined in the addon
+Can login using Facebook social login
+Auth code flow with Send phone message hook MFA with custom db and classic ul experience
+MFA for Dashboard Users
+User logs in through a spa app using code for token via SAML IDP initiated login on classic login
+Can login using Github social login
+Auth code flow with Send phone message hook MFA with custom db and new ul experience
+User with refresh token is deleted then recreated but refresh token is still invalid
+Preconfigured custom domain returned as issuer in Hybrid flow tokens with classic ul experience
+Customize classic universal login page and validate MFA related flow
+IdP user logs in through SP client to SAML IDP returning assertion to SAML SP  @layer0-skip
+Migrate TEAM client to CAM client
+Preconfigured custom domain returned as issuer in Hybrid flow tokens with custom ul experience
+Validate that Reset user mfa in Dashboard
+Action rolled back successfully
+IdP user logs in through SP client standard SAML
+Delete Ephemeral Tenants older than one day using tenant helper method
+Preconfigured custom domain returned as issuer in Hybrid flow tokens with new ul experience
+Revert CAM client to TEAM client
+IdP user logs in through SP client standard SAML with classic ul experience
+User logs in with protocol switch to samlp on the classic universal login experience
+Test that Client Credentials Grant with null client_metadata values still issues an access token
+IdP user logs in through SP client standard SAML with new ul experience
+User logs in with protocol switch to samlp on the new universal login experience
+Passwordless email API login with code
+Test pick which SAML connections get ACS assertions
+Ticket creation for password reset with classic ul experience
+Passwordless email API login with magic link
+Test editing the SAML Request Template and map the login_hint parameter
+Ticket creation for password reset with new ul experience
+Passwordless SMS API login with code
+Attempt and fail login as a blocked user due to leaked credentials
+Passwordless email connection login with code @smoke-test
+Auth code flow with users seconday identity with new ul experience
+Validate Timer Functionality
+Passwordless email connection login with magic link
+Test log streams to AWS EventBridge
+User logs in with user code via web authentication on activation device
+Tenant admin roles management
+Refresh token exchange with passwordless email user
+Test log streams to Azure Event Grid
+Passwordless email connection signup with code
+Auth code flow login with passwordless SMS connection
+User views the docs home page
+Refresh token exchange with passwordless SMS user
+Auth code flow signup with passwordless SMS connection
+Implicit flow with seamless OAuth SSO with consent and SLO for passwordless email user
+SAML Flow SP initiated login with organizations in qs invalid organization id error.
+Implicit flow with seamless OAuth SSO with consent and SLO for passwordless SMS user
+SAML Flow SP initiated login with organizations in qs organization id required error.
+Login requesting one scope retrieves both scopes  @layer0-skip
+SAML Flow SP initiated login with organizations in qs no org_id override from rule.
+ROPG flow with RBAC returns scopes based on primary user when secondary identity logs in.
+Action postLogin update user metadata on new experience
+PostLogin_V2 Authorization code flow with actions adding custom claims
+PostLogin_V2: extensibility point actions deny access to a user who is attempting to access an application
+Connection create updates usage count
+Implicit flow with front and back channel OIDC connections with or without issuer
+Action postLogin V2 update user metadata
+Connection deletion includes deleted_at attribute @smoke-test
+Login using a new unique user
+Login using a new unique user
+Auth0 Db user changes password with post change password trigger onexperience
+Enroll and login with SMS MFA ${i} -iteration
+Authorization code flow with actions adding custom claims on different client types
+Action postLogin update id_token and access_token on classic experience
+Login is blocked for all IPs on ROPG flow after reaching threshold of failed logins
+Auth0 Db user enrollment with post registration trigger on new experience
+negative scenarios for change password
+Pre-Registration extensibility point actions deny user registration
+Can login user using Facebook social login
+Set user and app metadata using pre-user-registration action for user created via management api
+Social login for user using Facebook Social Connection  with code token with PKCE
+Update user and app metadata using pre-user-registration hook and modified by pre-user-registration action
+Can login using Github social login with custom claims
+User navigates to articles from header
+PostUserRegistration_V2 extensibility point actions execution
+Can login user using Google social login with rotating refresh token
+PreUserRegistration_V2 extensibility pre-user-registration action deny user registration
+Can login user using LinkedIn social login
+User navigates to quickstarts from header
+PreUserRegistration_V2 Action adding user metadata pre-registrtation
+Can login user using twitter social login
+Auth0 Db user changes their password with script and hook on classic experience
+Make m2m requests
+Auth0 Db user enrollment with pre and post registration hooks onexperience
+Code Flow with enforce_policies enabled returns user direct permissions in decoded access token on classic ul experience @smoke-test
+Deny user registration on new experience
+Code Flow with enforce_policies enabled returns user direct permissions in decoded access token on classic ul experience
+Deny user access with ValidationError on new experience
+User can login with regenerated mfa recovery code
+Deny user access with WrongUsernameOrPasswordError
+Code flow Requested permission is returned when added by rule with enforce_policies enabled for the classic universal login experince
+add actions integration to tenant from public Marketplace
+Auth code flow with rule redirecting to app and resuming with /continue on new experience
+Code flow Requested permission is returned when added by rule with enforce_policies enabled for the new universal login experince
+User with direct permission logs in with classic ul experince and with correct scopes
+Use modules within a rule on classic experience
+User with direct permission logs in with new ul experince and with correct scopes
+User with direct permission logs in with correct scopes with the classic universal login experience
+Auth code flow with rule configurations denying one audience and allowing another on new experience
+User with direct permission logs in with correct scopes with the new universal login experience
+User logs in with token and id_token with custom claim on classic experience
+Auth code flow API scopes are returned when enforce_policies is disabled with classic ul experience
+CredentialsExchange_V2: Action auth flow adding custom claim
+CredentialsExchange_V2 Action deny access
+Auth code flow API scopes are returned when enforce_policies is disabled with new ul experience
+Connection is properly retrieved
+Action CredentialsExchangeAction Update access_token scope
+Can delete a user in a connection by its Email
+Action deny access CredentialsExchangeAction
+Auth code flow with expiring access token after 2 seconds with classic ul experience
+Use hook to add custom claim to access token
+Auth code flow with expiring access token after 2 seconds with new ul experience
+Use hook to add extra scope to access token
+Code Flow with enforce_policies enabled returns user permissions in new decoded access token with classic ul experience @smoke-test
+Can get an Organizations
+Use hook to deny the access token with different error types
+Can get and create Invitations
+Custom Db user changes their password with script and hook on classic experience
+Custom Db user enrollment with pre and post registration hooks on new experience
+Code Flow with enforce_policies enabled returns user permissions in new decoded access token with new ul experience
+Can get Member roles
+Deny custom db user registration
+Can update an organization
+User logs in with custom db and user profile is returned on new experience
+Can update and delete a secret
+IdP user logs in through SP initiated to SAML IDP returning assertion to redirect_uri with IDP rule adding a custom claim
+Auth code flow with refresh token and permissions enabled with classic ul experience
+Can update a hook
+IdP user logs in through SP client to SAML IDP returning assertion to SAML SP with SP rule adding a custom claim
+Auth code flow with refresh token and permissions enabled with new ul experience
+Get all tenant logs to validate that tenant logs producer can write to pipeline
+User logs in with code and audience then exchanges refresh token with classic ul experience  @layer0-skip
+PostLogin auth flow action updates passwordless email user id_token and access_token
+User logs in with code and audience then exchanges refresh token with new ul experience
+PostLogin auth flow action updates passwordless SMS user id_token and access_token
+User with role has it added as custom claim in access token with classic ul experience @smoke-test
+PostUserRegistration_V2 Passwordless email connection signup
+User with role has it added as custom claim in access token with new ul experience
+PostUserRegistration_V2 extensibility point actions passwordless sms execution
+User with role logs in with correct scopess with with classic ul experience
+PreUserRegistration_V2 Passwordless email connection signup
+User with role logs in with correct scopess with with new ul experience
+PreUserRegistration_V2 extensibility point actions passwordless sms execution
+Login is blocked on code token flow after reaching threshold of failed logins with classic ul experience
+Test Webhook log streams to auth flows app
+Passwordless email DB pre and post registration hooks on classic experience
+Login is blocked on code token flow after reaching threshold of failed logins with new ul experience
+Passwordless SMS DB pre and post registration hooks on classic experience
+Code flow with RBAC returns scopes based on primary user when secondary identity logs in classic ul experience
+Passwordless email DB with rule adding custom claims on classic experience
+Passwordless SMS DB with rule adding custom claims on classic experience
+Code flow with RBAC returns scopes based on primary user when secondary identity logs in new ul experience
+Auth code flow with Send phone message action MFA
+SendPhoneMessage_V2 Auth code flow with Send phone message action MFA
+User logs in with code flow and audience param on classic ul experience  @layer0-skip
+User logs in with code flow and audience param on custom ul experience
+User logs in with code flow and audience param with new ul experience  @layer0-skip
+Upgrade a specific tenant
+Enroll and login with explicit email MFA on new experience
+User logs in with code flow with classic ul experience
+Auth code flow with rule triggering MFA with ephemeral sessions enabled
+Auth code flow with rule triggering MFA on every login on classic experience
+Auth code flow with rule triggering MFA once per session on classic experience
+User logs in with code flow with new ul experience
+Verify MFA + Custom SMS template
+Enroll and login with verified email MFA
+Enroll in email MFA with ROPG login with code and recovery code
+Auth code flow with custom consent with classic ul experience
+User logs in with user code via ROPG on activation device
+Enroll in OTP MFA with ROPG login with code and recovery code
+Auth code flow with custom consent with new ul experience
+Get an Access Token using basic authentication
+Enroll in SMS MFA with ROPG login with code and recovery code
+Auth code flow with dynamically registered client with classic ul experience
+Implicit flow requesting idToken SAML connection succeeds using the first party client with classic ul experience
+Auth code flow with dynamically registered client with new ul experience
+Implicit flow requesting idToken SAML connection succeeds using third party client with classic ul experience
+App flow with RBAC logging in with enforce_policies enabled returns all API scopes with classic ul experience
+Implicit flow requesting idToken SAML connection succeeds using first party client with new ul experience
+App flow with RBAC logging in with enforce_policies enabled returns all API scopes with new ul experience
+Implicit flow requesting idToken SAML connection succeeds using third party client with new ul experience
+Custom DB user MFA enrollment and login
+User logs in with requested tenant level scopes with classic ul experience
+User logs in with SAML no extra connection params on classic experience
+SAML user enrolls in MFA during signup
+User logs in with requested tenant level scopes with new ul experience
+Passwordless email connection login with OTP MFA required by action
+User logs in with code flow  client configured to create HS256 encoded id token with classic universal login experience
+Passwordless SMS connection login with OTP MFA required by action
+User logs in with code flow  client configured to create HS256 encoded id token with new universal login experience
+Passwordless email connection login with OTP MFA required by rule
+User logs in with code flow with the classic universal login experience
+Passwordless SMS connection login with OTP MFA required by rule
+Only members can authenticate to an organization with assign_membership_on_login: false
+User logs in with custom claim with the classic login experience
+When the organization connection is set to auto assign membership authorize with an organization  @layer0-skip
+User logs in with custom claim with the custom login experience
+Organization available in rules
+User logs in with custom claim with the new login experience
+Validate Reset Number of Attempts Flow after user is blocked
+User with organization role has it added as custom claim in access token
+User logs in with QR code landing on verification_uri_complete with classic ul experience
+User with role logs in with correct scopes in organization
+User logs in with QR code landing on verification_uri_complete with custom ul experience
+Implicit flow with organizations
+User logs in with QR code landing on verification_uri_complete with new ul experience
+Organization invite
+Organization invite signup
+Link user accounts where the ${scenarioString} of the users are organization members. Then unlink and verify that it becomes unable to login with secondary account
+Remove permission from role and use a refresh token  @layer0-skip
+Remove an enabled connection and try to use a refresh token
+User logs in with user code refreshes session fails to refresh revoked session with new login experince
+Can login user using Facebook social login with offline_access
+Remove role from organization member and try to use a refresh token
+User logs in using device authorization flow depending on allow_offline_access with classic login experince
+Remove user from organization and try to use a refresh token  @layer0-skip
+User logs in using device authorization flow depending on allow_offline_access with custom login experince
+Specify database connection and organization in authorize parameters
+User logs in using device authorization flow with enforce_policies disabled with classic ul experince
+Specify enterprise connection and organization in authorize parameters
+User logs in using device authorization flow with enforce_policies disabled with new ul experince
+Delete All layer0 feature flag overrides @l0FFDel
+organization_usage set to allow authorize with organization
+Device Flow with enforce_policies enabled returns user direct permissions in access token with classic login experince
+organization_usage set to allow authorize without organization
+Check users job with errors
+organization_usage set to deny authorize with organization
+Device Flow with enforce_policies enabled returns user direct permissions in access token with new login experince
+Client retrieves OpenID configuration
+organization_usage set to require organization_require_behavior set to pre_login_prompt authorize without organization enter invalid organization name
+User logs in with code flow PKCE and with offline access grant per APIs config with classic universal login
+organization_usage set to require organization_require_behavior set to pre_login_prompt authorize without organization
+Device Auth flow with RBAC returns scopes based on primary user when secondary identity logs with classic ul experience
+User logs in with code flow PKCE and with offline access grant per APIs config with new universal login
+organization_usage set to require organization_require_behavior set to no_prompt authorize with organization
+organization_usage set to require organization_require_behavior set to no_prompt authorize without organization
+Auth code flow without an organization in the query string and a rule redirecting to app and resuming with /continue on the new UL experience
+Device Auth flow with RBAC returns scopes based on primary user when secondary identity logs with new ul experience
+Specify organization on authorize parameters on new universal login experience and login with SAML idp
+User logs in with code flow with response_mode: query with the classic universal login experience
+Ephemeral custom domain returned as issuer in tokens from CCE flow
+User logs in with code flow with response_mode: query using the new universal login experience
+Lock v11 (on custom domain) -       OIDC conformant client
+User logs in with code token and id_token on custom domain
+Auth code flow with PKCE and with web_message as response mode with new login experience
+A blocked IP address is unblocked when the rate limit is sufficiently increased
+Validate that login is blocked for user after reaching threshold of failed logins but SignUp works fine
+User logs in with id_token code and web_message with the new login type
+Retrieve Tenant Entitlements Categorized
+Login is blocked on implicit flow after reaching threshold of failed logins for classic login experince
+User request an additional scope and the previous scope for consent prompt approval for classic login type
+Implicit token without params azure adfs cert error
+User request an additional scope and the previous scope for consent prompt approval for new login type
+Using the implicit flow User logs in via ADFS Connection
+API setting is overridden for 3rd party client with classic login experince
+Validates POST '/api/v2/connections' endpoint
+API setting is overridden for 3rd party client with new login experince
+Validates GET '/api/v2/connections/{id}/directory-users' endpoint
+Verify import user with a totp mfa enrollment
+Move to Get Started from Articles landing sidebar
+Implicit flow requesting token and idToken with form_post response with classic ul experience
+User logs out from get-started page
+User logs in with custom db using invitation and user profile is returned on new experience
+A user can login when the crypto migration client is present
+Write fails to sandbox binaries
+test POST endpoints
+ROPG with enforce_policies enabled returns user role permissions in access token
+Login with different user-agent yields NewDevice result with 'partial_match' and {device: 'known' useragent: 'unknown'}
+ROPG with enforce_policies enabled returns user updated permissions in new access token
+Tenant admin roles management - edit roles and delete second tenant
+User logs in from the home page
+ROPG flow with RBAC returns scopes based on each user's permissions when unlinked.
+Implicit token without params Windows AD ldap with universal login
+Positive scenario for change password from /dbconnections/change_password
+User navigates directly to articles by url
+User views quickstarts for SPAs
+Code Flow with enforce_policies enabled returns role permissions in decoded access token on classic ul experience
+Code Flow with enforce_policies enabled returns role permissions in decoded access token on classic ul experience
+Auth code flow both requested scopes are returned when enforce_policies is disabled with classic ul experience
+Auth code flow both requested scopes are returned when enforce_policies is disabled with new ul experience
+Code Flow with enforce_policies enabled returns user updated permissions in new decoded access token with classic ul experience
+Can delete Invitation
+Code Flow with enforce_policies enabled returns user updated permissions in new decoded access token with new ul experience
+End to end test of application creation to login for the classic universal login experience
+Code flow with RBAC returns scopes based on each user's permissions when unlinked with classic ul experience
+Code flow with RBAC returns scopes based on each user's permissions when unlinked with new ul experience
+blocked user cannot log in classic ul experience
+blocked user cannot log in new ul experience
+User logs in with code flow and connection with classic ul experience
+User logs in with code flow with the new universal login experience
+User logs in using device authorization requests one scope and retrieving both scopes for the classic login experince
+User logs in with user code refreshes session fails to refresh revoked session with custom login experince
+Device Flow with enforce_policies enabled returns user role permissions in access token for the classic login experince
+Device Flow with enforce_policies enabled returns user role permissions in access token for the new login experince
+Device Auth flow with RBAC returns scopes based on each user's permissions when unlinked with classic ul experience
+Device Auth flow with RBAC returns scopes based on each user's permissions when unlinked with new ul experience
+Auth code flow with PKCE and with web_message as response mode with classic login experience
+Validate that user can login after User is unblocked from the management dashboard
+User logs in with id_token code and web_message for the new login type
+Retrieve Plan Entitlements
+User request scopes for different client for consent prompt approval for classic login type
+Implicit token without params azure adfs then single logout
+User request scopes for different client for consent prompt approval for new login type
+Implicit token without params Windows AD adfs cert error
+Client callback updated to localhost to skip consent prompt consent with classic login experince
+Validates GET '/api/v2/connections/{id}' endpoint
+Client callback updated to localhost to skip consent prompt consent with new login experince
+Verify import user with a sms mfa enrollment
+Get Started landing shows main manu link
+Logged in user switches tenant from get-started page
+User signs up with custom db using invitation and user profile is returned on new experience
+A user can login when the crypto migration client is present
+Creating bash process should fail
+Login with different device_id yields NewDevice result with 'partial_match' and {device: 'unknown' useragent: 'known'}
+ROPG with enforce_policies enabled and role removed from user returns only assigned permission
+Header is present in home page
+ROPG flow with RBAC returns scopes based on primary user when secondary identity logs in and has own scopes.
+User views quickstarts for Native/Mobile apps
+Can all get all enabled connections by organization id
+Code Flow with enforce_policies enabled and role removed from user with classic ul experience
+Code Flow with enforce_policies enabled and role removed from user with new ul experience
+Code flow with RBAC returns scopes based on primary user when secondary identity logs in and has own scopes with classic ul experience.
+Code flow with RBAC returns scopes based on primary user when secondary identity logs in and has own scopes with new ul experience.
+Unblocked user logs in with code flow with classic ul experience
+Unblocked user logs in with code flow with new ul experience
+User logs in with code flow and connection param with custom ul experience
+User logs in using device authorization requests one scope and retrieving both scopes for the new login experince
+User logs in with user code refreshes session fails to refresh revoked session with classic login experince
+Device Auth flow with RBAC returns scopes based on primary user when secondary identity logs in and has own scopes with classic ul experience
+Device Auth flow with RBAC returns scopes based on primary user when secondary identity logs in and has own scopes with new ul experience
+Validate that if IP is added to Allow List user is no longer blocked
+User request new scopes after delete previous grants for consent prompt approval for classic login type
+Implicit token without params azure adfs
+User request new scopes after delete previous grants for consent prompt approval for new login type
+Validates DELETE '/api/v2/connections/{id}' endpoint
+Verify import user with a email mfa enrollment
+Access sidebar main manu and go back to section sidebar
+User logs in with custom db and user profile is returned on new experience
+Can retrieve rotate and revoke signing keys
+Process is unsuccessfully killed
+Login with different device_id and different user-agent yields NewDevice result with 'no_match' and {device: 'unknown' useragent: 'unknown'}
+Footer is present in home page
+User views quickstarts for Web apps
+Can get all enabled connection by organization id and connection id
+User logs in with code flow and connection param with new ul experience
+Device Flow with enforce_policies enabled returns user permissions in new access token for the classic login experince
+Verify import user with password hash
+User requests same scopes twice on one client for consent prompt approval for classic login type
+User request same scopes twice on one client for consent prompt approval with new login type
+Validates PATCH '/api/v2/connections/{id}' endpoint
+Sidebar expansion and active items colors
+Can retrieve rotate and revoke signing keys
+Environment only contains the PATH
+Use x-auth0-trust-reducer to force MFA
+Home page displays section links in header
+User views quickstarts for Backend apps
+Device Flow with enforce_policies enabled returns user updated permissions in new decoded access token for the classic login experince
+Validates DELETE '/api/v2/connections/{id}/users' endpoint
+User logs in with code and calls /userinfo with access_token with new ul experience
+No capabilities available in sandboxes
+User logs out from home page
+User navigates to the Next.js quickstart
+Device Flow with enforce_policies enabled and roles removed from user for classic login experince
+Device Flow with enforce_policies enabled returns user permissions in new access token for the new login experince
+Connections to forbidden cluster resources fails
+Logged in user switches tenant from home page
+Create a new tenant with a custom name
+Device Flow with enforce_policies enabled returns user updated permissions in new decoded access token for the new login experince
+Connections to internet hosts succeeds
+Device Flow with enforce_policies enabled and roles removed from user for new login experince
+Write to filesystem fails
+Exec node fails
+Configuration prevents local resource resolution
+End to end test of application creation to login for the new universal login experience
+Lock v11 (default auth params) - OIDC conformant client
+User logs in with code and id_token with audience param on new experience using Pushed Authorization Requests
+PostLogin_V2 Authorization code flow with actions adding non-namespaced custom claims
+Enroll in push MFA with ROPG login push
+User runs the email verification flow with custom db on new experience
+Validate that the user notification email is sent after user tries to login with breached credentials
+User navigates to articles from get-started page header
+add action integration to tenant from internal marketplace and execute it
+add built-in SSO integration to tenant from public Marketplace
+A user can login when the crypto migration client is present
+Add feature flags to a specific tenant
+Delete All Ephemeral Tenants using tenant helper method
+Can change password from /dbconnections/change_password in the context of organization
+Get Tenants @getTenant
+Refresh token cleanup (via DCW) @infrastructure
+Organizations - You can get an invitation email
+Invitee receives invitation email
+Retrieve Tenant Entitlements from context
+Set up SAML / WSFed addons @automatable
+Create list should show the same integrations and order as marketplace.auth0.com/features/social-connections
+User Removal: Data Consistency Across Services @infrastructure
+User can log in with an MFA factor
+Rules - filesystem
+Stats reflects new sign-ins
+Custom Domain auth0-managed verification works
+Add Action should show the same integrations as marketplace.auth0.com/features/actions
+Breached Password Detection - Leaked credentials are blocked
+Verify tenant suggestion works for cloud
+Login as Delegated Admin - User and Validate Permissions are accurately reflected in the dashboard
+Upgrade Subscription w/ Quota Change
+Enrollment New UL
+Enrollment
+Environment picker works @automated
+Enroll WebAuthn
+Ticket submission @automated
+Rate limit /oauth/token
+Tenant can be successfully created after signup @automated
+Browse By links shown match marketplace.auth0.com sidebar
+new ul flow - authentication profile - username + password @automatable
+UX matches expected experience based on role(s)
+Feature links point to a screen with the correct name description and integrations
+Name displays correctly
+Can change environment tag @automatable
+Can run production checks on a tenant from the Dashboard
+google - enable the connection through the dashboard
+Tenants Overview
+Enforce MFA DUO @auth @mfa
+Create list should show the same integrations as marketplace.auth0.com/features/sso-integrations
+samlp - enable the connection through the dashboard
+Internal Users View (User Overview Tenant Members Support Center Users)
+Tenant Overview
+Provision a Team from CS Tools
+Extension E2E
+If an SSO connection is associated to the team's org it should appear as option in the login box
+Team owner can't navigate to the dashboard for tenants they don't have access to
+Forgot password flow (New UL)
+Retrieve Tenant Entitlements Categorized
+Authentication API Debugger - Try out the different protocols Auth0 supports
+On-page search shows the correct integrations based on query
+Tenant Removal: Data Consistency Across Services @infrastructure
+User can enroll with a WebAuthn factor
+Actions - versions and revert
+Custom Domain auth0-managed login works
+On-page search displays the correct integrations based on query
+Adaptive MFA - Email OTP flow
+Verify basic inspecting works for cloud
+Login Delegated Admin - Auditor and Validate Permissions are accurately reflected in the dashboard
+Downgrade Subscription w/ Quota Change
+Enrollment Classic UL
+Authentication
+Uptime graph can be navigated
+Enroll Push Notificaitons
+Ticket submission @automated
+EventBridge Sink can be created
+Can successfully switch between tenants @automated
+Browse By links point to the correct page with name description and integrations
+new ul flow - authentication profile - identifier first @automatable
+New tenant member email confirmation
+Lists with ~9 or more integrations include an on-page search bar
+Short description displays below the name
+Review environment tag prompts in tenant picker
+facebook - enable the connection through the dasboard
+PSaaS Overview
+On-page search displays the correct integrations based on query
+waad - enable the connection through the dashboard
+PSaaS Overview
+Send SMS rate limiting @mfa @ratelimit
+Add an owner from CS Tools
+Long Lived Sessions (long_lived_refresh_token_lifetime flag)
+Forgot password flow (Classic UL)
+Retrieve Plan Entitlements
+Currently-installed connections should indicate "ADDED" and adopt an inactive state
+Resource Server Removal: Data Consistency Across Services @infrastructure
+User can remove an MFA factor
+Actions - Node 12 and 16
+Use custom domain for email works
+Clicking an integration shows the integration detail screen
+Bot Detection - Enforce CAPTCHA Always
+Verify tenant settings are functional
+Simple Logout of a user
+Write a filter hook that will exclude the Delegated Admin - Administrator from showing up in the list for other non-admin users
+Downgrade a Paid Subscription to a Free Plan
+Authentication New UL
+Security Keys
+Uptime graph can be navigated
+Ticket viewing
+Validate tenant logs backup
+Discover links appear and point to the correct screen or external link
+new ul flow - authentication profile - identifier first + biometrics
+Tenant members list @automated
+Category links point to a screen with the correct name description and integrations
+Creator link below short description points to an external link for the partner
+github - enable the connection through the dashboard
+Tenant Tagging
+Clicking an integration shows a consent screen
+google-apps - enable the connection through the dashboard
+Tenant Tagging
+See members from CS Tools
+OIDC Back Channel logout
+AD/LDAP Connector - Login with dashboard
+Clicking an integration shows a consent screen
+Organization Removal: Data Consistency Across Services @infrastructure
+User can regenerate a recovery code
+Check actions in test mode
+Don't use custom domain for email works
+Custom domains
+Bot Detection - Enforce CAPTCHA When Risky
+Verify application listing is functional
+Implicit flow with Fragment response mode
+Generate reusable refresh token and exchange it @automatable
+Clicking on Add Integration shows a consent screen
+Assign Tenant to Master Tenant - Ensure that the child tenant's subscription is cancelled
+Authentication Classic UL
+Biometrics
+Environment picker works on incident listing @automated
+SC invitations @automated
+Write an access hook scenario that makes sure that the non-Delegated Admin - Admin users cannot access the Delegated Admin - Admin user account
+Staff Picks appear and See All link points to complete list of integrations
+new ul flow - email verification with azureAD
+Tenant members invites list @automated
+Correct type or feature appears below the short description
+apple - enable the connection through the dashboard
+Production Checks
+Marketplace breadcrumb link points to Marketplace home in the dashboard
+Consent screens show the correct access with correct company logo and product name
+oauth2 - enable the connection through the dashboard
+Production Checks
+See tenants from CS Tools
+Import MFA factors during lazy migration
+Consent screens show the correct access with correct company logo and product name
+Connection Removal: Data Consistency Across Services @infrastructure
+Custom Domain auth0-managed deletion works
+Consent screens show the correct access with correct company logo and product name
+Applogs verification
+Verify application details are functional
+Tenant as an IDP - download the PEM from the /pem endpoint
+Generate rotating token and exchange it @automatable
+Extend Trial
+Deletion from Guardian App
+Setup custom domain and test custom relying party
+Subscription Picker
+Clicking on individual integrations shows the correct detail screen
+co/authenticate - login with auth0 database
+The MFA status of the tenant member is shown in the tenant members list
+Overview tab is selected by default and both description and value prop columns show
+linkedin - enable the connection through the dashboard
+Tenant Provisioning
+On-page search bar if present pulls up the correct integrations
+Consent screens for partner-built integrations (like Shutterstock) link to the partner-hosted terms of use and privacy
+oidc - enable theconnection through the dashboard
+AD/LDAP Connector Health Monitor Extension
+Consent screens for partner-built integrations (like Signicat) link to the partner-hosted terms of use and privacy
+Organization Member Removal: Data Consistency Across Services @infrastructure
+Can login user using a Google Workspace Enterprise Connection
+Custom Domain self-managed verification works
+Refresh Token Limit Enforcement
+Consent screens link to the partner-hosted terms of use and privacy
+Metrics/DataDog verification
+Verify API listing is functional
+SSO Dashboard Extension - Create an app and test a login request
+Decommission Subscription
+Configure Push custom app with AWS SNS @thirdparty
+Subscription Picker
+Sidebar links all point to an external site or email address
+Salesforce Requests
+windowslive - enable the connection through the dashboard
+Consent screens for Auth0-built integrations (like AD RMS) link to Auth0 terms of use and privacy
+Validate endpoint: /p/:strategy/:ticket/info
+Consent screens for Auth0-built integrations (like Facebook) link to Auth0 terms of use and privacy
+Client Removal: Data Consistency Across Services @infrastructure
+Can login user using a Ping Federate Enterprise Connection
+Custom Domain self-managed login works
+Clicking Cancel on the consent screen of any integration brings you back to the integration detail page
+Lightstep verification
+Verify API details are functional
+Verify tenant members in users section @automated
+Enforce Push with custom app
+Clicking on the Installation tab shows the install guide
+Update from Contract
+twitter - enable the connection through the dashboard
+Clicking Cancel on the consent screen of any SSO integration brings you back to the list of all SSO integrations
+AD/LDAP Connector - Ensure that connection status is online in the dashboard
+Clicking Continue on the consent screen brings you to the create screen with configuration fields
+Check Error Logs @infrastructure
+Can login user using native Sign in with Apple
+Custom Domain self-managed deletion works
+Clicking Continue on the consent screen brings you to the create screen with configuration fields
+Verify connection listing is functional
+Verify tenant members can be invited in users section @automated
+Add Integration button shows the installation tab for guides and the consent screen for all others
+Adaptive MFA - Email OTP flow with custom email template
+Assign Child to Master
+Clicking Continue on the consent screen brings you to the create screen with configuration fields and a setup guide showing
+Check Rate Limit: GET /api/v2/users-by-email @ratelimit
+Marketplace integrations (like 1Kosmos BlockID) show the correct configuration fields
+Check DCW Configuration @infrastructure
+Can login user using Sign in with Apple
+Configuration screen fields labels and descriptions match what's defined in the integration manifest or back end
+Verify connection details are functional
+Verify support center users in users section @automated @deprecated
+Type/Feature link in breadcrumb points to the correct place
+Decommission Subscription
+Marketplace integrations (like Shutterstock) show the correct configuration fields
+Check if metrics are emitted to data dog
+Required configuration fields do not allow the integration to be created if they are empty
+Validate Rate Limits @ratelimit
+Required configuration fields do not allow the integration to be created if they are empty
+Verify user listing is functional
+Verify support center users can be invited in users section @automatable
+Internal Auditing
+Required configuration fields do not allow the integration to be created if they are empty
+Check Rate Limit: POST /dbconnections/change_password @ratelimit
+A correctly-configured integration allows you to save it and displays the Applications tab
+A correctly-configured integration allows you to save it and prompts to add the integration to a flow
+Verify user search is functional
+Update enterprise master tenant subscription from contract
+URL-validated configuration fields require a URL-shaped value
+User Import - Send results email works
+The Settings tab contains the same values used to create the integration; client secret should be omitted
+Changing the values and saving the integration keeps the new values; refreshing the page retains the values shown
+Verify user details are functional
+Create new tenant @automated
+A correctly-configured SSO integration allows you to save it and displays the Tutorial tab
+Retrieve job error details when the `${tenant}_${job.job_id}_rejected.json` file does not exist in Azure Blob Storage
+Changing the configuration fields and saving the integration keeps the new values; refreshing the page retains the values shown (except client secret which is blank)
+Integration can be added to a flow and changes can be applied
+Verify roles listing is functional
+PSaaS Overview @automatable
+The Settings tab contains the values used to create the integration
+User Import - API2 job limit honored
+Client ID is required but Client Secret is not when editing
+Integration shows the correct partner logo when in the flow screen
+Verify permissions details are functional
+Tenant Overview
+Changing the values and saving the integration keeps the new values; refreshing the page retains the values shown
+User Import - Metrics are emitted to Data Dog
+Looking at a Marketplace connection via API2 shows the correct default values from the template
+Verify role user details are functional
+Verify quota utilization report is correct @automated
+Looking at a Marketplace SSO integration via API2 shows the correct default values from the template
+User Import - Logs appear in Kibana/Opensearch
+Permissions can be changed and saved retaining the values entered
+Clicking Setup Guide shows/hides an overlay with setup instructions; navigation moves from screen to screen
+Verify Organizations
+Verify quota utilization report history is correct @automated
+User search indexes imported users
+Saving a connection with no changes to configuration retains the original client secret value
+Verify hosted pages listing is functional
+Verify subscription usage report is correct @automated
+Export users worker - basic export
+Verify emails listing is functional
+Connections that allow dynamic values in options (like BlockID) replace the stored value with the saved value when viewed in API2
+Verify Attack Protection listing is functional
+Verify mfa factors listing is functional
+Verify Actions listing is functional
+Verify rules listing is functional
+Verify rules details are functional
+Verify hooks listing is functional
+Verify hooks details are functional
+Verify logs listing is functional
+Verify log search is functional
+Non tenant admins can only create personal account tenants and can change environment tag
+Customise universal login using page templates
+Admin sends out an invite user signs in successfully with correct role assigned
+Validate action can be created via dashboard
+Additional links work: Privacy
+Test API Creation via dashboard
+Create new resource server from dashboard
+Create new machine to machine application
+Create new native application
+Create new regular web application
+Create new single page web application
+Dashboard create rule
+Validate authentication profile types
+Validate the Dashboard's Auth0 database connection page elements and navigation
+Validate the Twilio SMS Connection page elements and navigation
+Validate the Dashboard's Auth0 database connection page elements and navigation for Auth0-managed certificates
+Validate the Dashboard's Auth0 email page page elements and navigation for Amazon SES provider
+Validate the Dashboard's Auth0 email page page elements and navigation for Mailgun provider
+Validate the Dashboard's Auth0 email page page elements and navigation for Mandrill provider
+Validate the Dashboard's Auth0 email page page elements and navigation for Sendgrid provider
+Validate the Dashboard's Auth0 email page page elements and navigation for SMTP provider
+Validate the Dashboard's Auth0 email page page elements and navigation for SparkPost provider
+Validate the Dashboard's Auth0 email templates page elements and navigation for Verification Email (using link) template
+Set Enforce CAPTCHA to Never for Universal Login @candidate @atlassian-skip
+database connection page navigation
+Auth0 Authorization Extension - Extension dashboard
+Create Custom Social Connection with an application in a different Auth0 tenant
+User import/export extension
+Navigate to API
+Create new application
+Navigate and validate all Connections Pages
+Create new database connection
+Navigate to Marketplace Page
+Navigate to Security Pages and validate page that page was opened
+Admin sends out an invite and then removes tenant member disabling access
+Admin downgrades an editor-users tenant member to viewer-users resulting in downgraded restrictions in the same browser session
+Admin upgrades a viewers-users tenant member to editor-users resulting in upgraded privileges
+Validate the Dashboard's Auth0 organizations navigation with created application
+Validate Tabs: General Subscription Payment Tenant Members
+Additional links work: Privacy
+user logs in to review members of a team
+view tenants list upon successful login
+Dashboard Users and Roles
+Switch from Classic experience to New
+user creates invitation invitation is accepted and new user has access to auth0 teams
+tenant creation unrestricted: tenant admins can create tenants under team account
+team owner can create tenant under personal account
+Add action integration to tenant from public Marketplace
+Passing sus1 as the region returns expected values
+Passing sus2 as the region returns the expected values
+Pre User Registration: Validate all elements for an new Action Created
+Additional links work: About
+Validate Email connection page elements and navigation
+Validate the Dashboard's Auth0 database connection page elements and navigation for Self-managed certificates
+Validate the Dashboard's Auth0 email templates page elements and navigation for Verification Email (using Code) template
+Auth0 Authorization Extension - dashboard
+Validate Tabs: Custom Domains and Advanced
+Additional links work: About
+User pages between sets of members of a team
+can view the tenants admins for a given tenant
+Customise new universal login prompts using no code tool @branding @layer0-skip
+user can create invitation and remove invitation
+tenant creation unrestricted: tenant admins can create tenants under free account
+Passing stage as the region returns the expected values
+when a tenant admin picks 'personal account' then the new tenant must be a free tenant
+Post User Registration: Validate all elements for an new Action Created
+Validate ability to configure a Twilio connection
+Validate the Dashboard's Auth0 email templates page elements and navigation for Welcome Email template
+Validate Tab: Signing Keys
+All regions are selectable from /incidents
+User pages between sets of tenants of a team
+tenant creation and deletion is reflected in team accounts dashboard
+tenant creation restricted: tenant admins can NOT create tenants under team account
+Passing tus1 as the region returns the expected values
+The self service user can only create tenants under “personal account” so no ”custom agreement” or ”personal account” options are displayed
+Post Change Password: Validate all elements for an new Action Created
+Validate the Dashboard's Auth0 email templates page elements and navigation for Enroll in Multifactor Authentication template
+Tenant Settings: Validate settings UI based on the Managment API results
+See history link works
+Passing layer0-azure as the region returns the expected values
+Send Phone Message: Validate all elements for an new Action Created
+Validate the Dashboard's Auth0 email templates page elements and navigation for Change Password template
+Tenant Settings: Validatet that toogles changes are applied using the Management API @quarantine
+Individual incidents can be hovered over and selected
+Passing layer0-aws as the region returns the expected values
+Validate the Dashboard's Auth0 email templates page elements and navigation for Blocked Account Email template
+Incident listing links work
+Passing pus4 as the region returns the expected values
+Validate the Dashboard's Auth0 email templates page elements and navigation for Password Breach Alert template
+Incident listings appear correctly
+Passing peu2 as the region returns the expected values
+Validate the Dashboard's Auth0 email templates page elements and navigation for Verification Code for Email MFA template
+Incident listing can be navigated in time
+Passing pjp1 as the region returns the expected values
+Validate the Dashboard's Auth0 email templates page elements and navigation for User Invitation template
+Individual incident page has all information
+Passing prod-au as the region returns the expected values
+Show minor incidents works
+RSS Feeds work/render
+Social Links: Twitter
+Social Links: LinkedIn
+Social Links: Instagram
+Social Links: Github
+Subscribe button functions
+See support link works
+Desktop timeline
+Tablet timeline resize @sp-11 @sp-12
+Mobile timeline resize @sp-11 @sp-12
+Uptime Calculation
+All regions show in selector in desktop view
+All regions show in selector in mobile view
+All regions are selectable in selector in desktop view
+All regions are selectable in selector in mobile view
+Compliance
+Initial login
+Initial login
+Invite support user. Invited user has active session on auth server
+Invite support user. Invited user already has an auth0 account
+Invite support user. Invited user who has not auth0 account
+Open ticket button
+Quota report
+SSO silent auth
+Subscription Usage banner
+Switch from New experience to Classic
+Support Center tenants
+Ticket history navigation
+Usage Report
+Create new tenant in CS Tool and check this tenant in manage @quarantine
+Verify quota utilization report history is correct
+Verify quota utilization report
+Verify Subscription Usage Report
+Additional links work: Terms of Service
+Additional links work: Terms of Service
